@@ -1,3 +1,4 @@
+//tests button color & functionality
 chrome.runtime.onInstalled.addListener(function() {
     chrome.storage.sync.set({color: '#6FCBEC'}, function() {
         console.log("hello");

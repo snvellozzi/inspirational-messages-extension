@@ -1,3 +1,4 @@
+//sets color of button on popup
 let colorChange = document.getElementById('colorChange');
 
 

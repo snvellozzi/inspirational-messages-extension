@@ -1,3 +1,4 @@
+//creates array of quotes
 (function() {
     
 var messages = [
@@ -13,10 +14,11 @@ var messages = [
     'Don\'t forget who you are.', 'Take it all in.', 'Keep going after what you believe in.',
 ];
 
+//randomly generates quote from message array
 function newMessages(newArr){
     return newArr[Math.floor(Math.random() * messages.length)];
 }
-
+//displays quote on popup
 window.onload = function(){
     var randMessage = newMessages(messages);
     document.getElementById('messageDisplay').innerHTML = randMessage;

@@ -1,3 +1,4 @@
+//allows user to change color of webpage from button on popup
 let page = document.getElementById('buttonDiv');
 const kButtonColors = ['#6FCBEC', '#b19cd9', '#FFB6C1', '#FFFF99'];
 function constructOptions(kButtonColors) {
@@ -14,6 +15,7 @@ function constructOptions(kButtonColors) {
 }
 constructOptions(kButtonColors);
 
+//saves color user chooses
 function save_options() {
   var color = document.getElementById('buttonDiv').value;
   chrome.storage.sync.set({
