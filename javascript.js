@@ -11,7 +11,7 @@ var messages = [
     'Take some time for yourself to appreciate how strong you are', 'Don\'t be afraid to take an unconventional path for something you wholly believe in.',
     'Follow your intuition. You know yourself well.', 'You are strong enough to overcome anything.', 'Think about your goals. Keep working toward them',
     'Stay hopeful and happy.', 'The possibilities are endless. Go for it.', 'Work to improve the world.', 'Go for it!', 'Don\'t let anything hold you back from achieving your dreams.',
-    'Don\'t forget who you are.', 'Take it all in.', 'Keep going after what you believe in.',
+    'Don\'t forget who you are.', 'Take it all in.', 'Keep going after what you believe in.', 'Stay on your feet.',
 ];
 
 //randomly generates quote from message array
