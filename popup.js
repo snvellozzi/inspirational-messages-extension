@@ -17,12 +17,22 @@ colorChange.onclick = function(element) {
   };
 
 colorChange2.onclick = function(element){
-    let color2 = element.target.value;
+    let color2 = "#ffb347";
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
       chrome.tabs.executeScript(
         tabs[0].id,
         {code: 'document.body.style.backgroundColor = "' + color2 + '";'});
   });
+
+};
+
+colorChange3.onclick = function(element){
+  let color2 = "#ffffff";
+  chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+    chrome.tabs.executeScript(
+      tabs[0].id,
+      {code: 'document.body.style.backgroundColor = "' + color2 + '";'});
+});
 
 };
 
