@@ -9,3 +9,8 @@ This is a Google Chrome extension that randomly generates inspirational messages
 * Switch to "Developer Mode" in upper right-hand corner
 * Click on "Load Unpacked" and select the directory for the extension
 * Test out the extension!
+
+## Images of Popup Design
+
+![Display popup design](images/popup-design1.png)
+![Display popup design](images/popup-design2.png)
