@@ -13,4 +13,7 @@ This is a Google Chrome extension that randomly generates inspirational messages
 ## Images of Popup Design
 
 ![Display popup design](images/popup-design1.png)
-![Display popup design](images/popup-design2.png)
+![Display popup design](images/popup-design-purple.png)
+![Display popup design](images/popup-design-yellow.png)
+
+
